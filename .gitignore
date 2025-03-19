@@ -1,1 +1,14 @@
+-_pycache__/ 
+.cache/ 
+.config/ 
+ipython/ 
+jupyter/ 
+venv/ 
+data/embeddings/
+.local/ 
+.ssh/
+.vscode/ 
+.bash_history
 .env
+.Rprofile
+
