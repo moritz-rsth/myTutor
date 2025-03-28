@@ -2,8 +2,10 @@ import os
 from dotenv import load_dotenv
 
 # -------------------------INFORMATION-------------------------- #
-# This script searches in the embeddings for chunks of the PDF
-# similar to the prompt given by the user.
+# This script loads environment variables from a .env file, retrieves 
+# API keys and paths for both LLM and Embedding APIs, and reads system 
+# prompts from text files. It also includes a debugging section to print 
+# out the loaded variables for verification.
 # -------------------------------------------------------------- #
 
 # Lade die Umgebungsvariablen aus der .env-Datei

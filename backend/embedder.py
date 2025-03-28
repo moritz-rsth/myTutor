@@ -5,8 +5,11 @@ import faiss
 import numpy as np
 
 # -------------------------INFORMATION-------------------------- #
-# This script searches in the embeddings for chunks of the PDF
-# similar to the prompt given by the user.
+# This Python script accesses embedding API credentials and uses OpenAI 
+# to create embeddings for a given text. It also includes a function to 
+# process PDFs by splitting them into text chunks, creating embeddings 
+# for each chunk, and storing them in a FAISS index for efficient 
+# similarity searches.
 # -------------------------------------------------------------- #
 
 # Zugriff auf Embedding API Zugangsdaten

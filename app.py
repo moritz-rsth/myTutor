@@ -4,8 +4,11 @@ from backend import chat_with_assistant
 from utils import extract_history
 
 # -------------------------INFORMATION-------------------------- #
-# This script searches in the embeddings for chunks of the PDF
-# similar to the prompt given by the user.
+# This Python script uses Streamlit to create an interactive web application 
+# called “myTutor” that allows users to ask questions based on topic-specific PDFs.
+#  It configures the page settings, displays a sidebar for topic selection, shows 
+# the chat history, and handles user input to generate responses using a 
+# connected AI assistant.
 # -------------------------------------------------------------- #
 
 # Konfigurieren der Seiten-Einstellungen

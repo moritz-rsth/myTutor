@@ -4,8 +4,11 @@ import config
 from utils import get_system_prompt
 
 # -------------------------INFORMATION-------------------------- #
-# This script searches in the embeddings for chunks of the PDF
-# similar to the prompt given by the user.
+# This Python script utilizes the OpenAI API to interact with a language 
+# model and generate responses based on user input and chat history. 
+# It includes a function to retrieve relevant context information, build 
+# a conversation history, and send a request to the API for generating 
+# a response tailored to the user’s topic and input.
 # -------------------------------------------------------------- #
 
 # Zugriff auf LLM API Zugangsdaten

@@ -1,5 +1,4 @@
-# myTutor
-TODO: Comments anpassen
+# 🎓 myTutor
 Dieses Projekt implementiert einen Chatbot, der mit der OpenAI-Schnittstelle verbunden ist und auf Basis von PDF-Dokumenten arbeitet. Es verwendet Vektorisierung und eine Vektordatenbank, um relevante Informationen aus den PDF-Dokumenten zu extrahieren und in seine Antworten zu integrieren.
 
 ## Projektstruktur

@@ -1,13 +1,9 @@
-import fitz  # PyMuPDF
+import fitz 
 import config
 
-# INFORMATION
+# -------------------------INFORMATION-------------------------- #
 # This file extracts the text from the PDF per page and
 # returns a list that contains the chunks for each page at the matching index.
-
-# -------------------------INFORMATION-------------------------- #
-# This script searches in the embeddings for chunks of the PDF
-# similar to the prompt given by the user.
 # -------------------------------------------------------------- #
 
 chunk_granularity = config.CHUNK_GRANULARITY  # Define chunk size from config

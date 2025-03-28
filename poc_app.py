@@ -2,9 +2,12 @@ import streamlit as st
 from openai import AzureOpenAI
 import config
 
-# INFORMATION
+
+# -------------------------INFORMATION-------------------------- #
 # Dieses Skript ist eine einfache Streamlit-App zur Interaktion mit einem KI-Chatbot.
 # Es überprüft die API-Verbindung zu Azure OpenAI.
+# -------------------------------------------------------------- #
+
 
 # Zugriff auf LLM API Zugangsdaten
 llm_api_key = config.LLM_API_KEY
