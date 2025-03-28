@@ -19,11 +19,11 @@ myTutor/
 │   │── text_splitter.py         # Texte in sinnvolle Abschnitte chunking
 │   │── embedder.py              # OpenAI Embeddings für den Kontext
 │   │── retriever.py             # Ähnlichkeitsabfrage zu den Chunks
-│   │── chat.py                  # Kommunikation mit OpenAI Chat API
+│   └── chat.py                  # Kommunikation mit OpenAI Chat API
 │
 ├── systemprompts/               # Ordner für alle Systemprompts
 │   │── system_prompt_bgb.txt    # Systemprompt für BIC
-│   │── system_prompt_vitara.txt # Systemprompt für Einmalzahlung
+│   └── system_prompt_vitara.txt # Systemprompt für Einmalzahlung
 │
 └── utils/                       # Hilfsfunktionen
     └── util_functions.py        # Sonstige Hilfsfunktionen
@@ -59,13 +59,9 @@ streamlit run app.py
 
 ## Interface
 
-Hier sind einige Screenshots des Interfaces, um einen Eindruck der Benutzeroberfläche zu vermitteln:
-
-![Interface Screenshot 1](images/interface_1.png)  
+Hier ist ein Screenshot des Interfaces, um einen Eindruck der Benutzeroberfläche zu vermitteln:
+<img width="1300" alt="Hauptseite des Chatbots mit Eingabefeld und Antwortbereich." src="https://github.com/user-attachments/assets/824dff3e-6df5-43e4-bf32-767b2cbbbdb3" />
 *Hauptseite des Chatbots mit Eingabefeld und Antwortbereich.*
-
-![Interface Screenshot 2](images/interface_2.png)  
-*Beispiel einer Konversation mit dem Chatbot, basierend auf PDF-Inhalten.*
 
 ## Beiträge & Verbesserungsvorschläge
 
